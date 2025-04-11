@@ -1,0 +1,71 @@
+
+* {
+    margin: 50px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#colorchange{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: colorChange 3s infinite  ;
+}
+
+@keyframes colorChange {
+    from {
+      background-color: red;
+    }
+    to {
+      background-color: green;
+    }
+}
+
+#moveright {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation: moveRight 2s ease-in-out forwards;
+}
+
+@keyframes moveRight {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(200px);
+    }
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    animation: rotateCircle 1s linear infinite;
+}
+
+@keyframes rotateCircle {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+#animat {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    animation: rotateAndScale 4s ease-in-out forwards;
+}
+
+@keyframes rotateAndScale {
+    from {
+      transform: rotate(0deg) scale(1);
+    }
+    to {
+      transform: rotate(360deg) scale(1.5);
+    }
+}

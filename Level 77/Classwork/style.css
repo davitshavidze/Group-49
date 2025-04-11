@@ -1,0 +1,25 @@
+
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#parent {
+    display: block;
+    background-color: rgb(156, 15, 15);
+    width: 500px;
+}
+
+#child {
+    display: block;
+    background-color: rgb(21, 21, 149);
+    width: 50px;
+}

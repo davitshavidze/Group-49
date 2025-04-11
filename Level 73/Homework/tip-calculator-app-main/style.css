@@ -1,0 +1,96 @@
+body {
+    background-color: #cfe8e8;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 20px;
+    width: 600px;
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-panel {
+    border-right: 1px solid #e0e0e0;
+}
+
+.right-panel {
+    background-color: #004d4d;
+    color: #00ffcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #004d4d;
+    letter-spacing: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #004d4d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #003333;
+}
+
+button.custom {
+    background-color: #e0e0e0;
+    color: #004d4d;
+}
+
+button.custom:hover {
+    background-color: #cccccc;
+}
+
+.reset-button {
+    background-color: #004d4d;
+    color: #00ffcc;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.reset-button:hover {
+    background-color: #003333;
+}
+
+.tip-amount, .total-amount {
+    font-size: 24px;
+    margin: 10px 0;
+}

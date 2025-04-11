@@ -1,0 +1,17 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box {
+  width: 100px;
+  height: 100px;
+  background: rgb(149, 0, 255);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,93 @@
+
+
+/* Font-Family: Popins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Font-family: Open sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Open sans;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.grid-item {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.highlight {
+    background: #7b5cd6;
+    color: white;
+}
+
+.yellow {
+    background: #facc15;
+}
+
+.img {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.img2 {
+    height: 200px;
+    width: auto;
+}
+
+.img3 {
+    height: 200px;
+    width: 250px;
+}
+
+.img4 {
+    height: 200px;
+    width: auto;
+}
+
+.img5 {
+    height: 200px;
+    width: auto;
+}
+
+.button {
+    background: #facc15;
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.grid-item yellow img {
+    width: 100px;
+    height: 100px
+}
+
+.h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
