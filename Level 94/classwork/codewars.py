@@ -82,12 +82,3 @@ def odd_or_even(arr):
     else:
         return "odd"
 
-
-# Codewars | 6 kyu -->
-
-# Codewars No.9
-
-# Solution:
-
-
-
